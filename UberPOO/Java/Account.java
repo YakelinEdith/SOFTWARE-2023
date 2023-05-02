@@ -1,7 +1,7 @@
-class Account:
-     id          = int
-     name        = str
-     document    = str
-     email       = str 
-     password    = str
-     
+class Account{
+     String name;
+     String document;
+     String email;
+     String password;
+
+}    
