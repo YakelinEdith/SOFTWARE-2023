@@ -6,7 +6,7 @@ from user import User
 if __name__ == "__main__":
     print("Inicializando las info de los carros")
     print("Car")
-    car = Car("AMS256", Account("Andres Herrera", "ASD12365","andres@platzi.com","2563"))
+    car = car("AMS256", Account("Andres Herrera", "ASD12365","andres@platzi.com","2563"))
     print(vars(car))
     print(vars(car.driver))
 

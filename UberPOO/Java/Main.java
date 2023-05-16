@@ -8,9 +8,12 @@ class Main {
         car.printDataCar();
 
         System.out.println("Uberx....");
-        UberX uberx = new UberX
-        ("MKL185", new Account("Maria Loyola", "JKL12365", "marial@hotmail.com", "125478"), "Toyota", "Corolla");
+        UberX uberx = new UberX("MKL185", new Account("Maria Loyola", "JKL12365", "marial@hotmail.com", "125478"), "Toyota", "Corolla");
+        uberx.printDataUberX();
 
+        System.out.println("User....");
+        User user = new User("Maria del Prado", "SDC369852", "marial@hotmail.com", "4521365");
+        user.printDataUser();
 
     }
 }

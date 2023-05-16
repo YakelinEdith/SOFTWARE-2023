@@ -4,7 +4,7 @@ class User extends Account {
         super(name, document, email, password);
     }
     void printDataUser(){
-        System.out.println("Document driver "+ document + " Name driver: "+ name + " E-mail: "+ email + "Password: "+ password);
+        System.out.println("Document driver: "+ document + "  Name driver: "+ name + "  E-mail: "+ email + "  Password: "+ password);
        
     }
 }
